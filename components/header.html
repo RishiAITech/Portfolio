@@ -1,0 +1,59 @@
+<header class="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 shadow-sm backdrop-blur">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+    <div class="flex min-w-0 items-center gap-8 xl:gap-12">
+      <a href="index.html" class="flex min-w-0 items-center" aria-label="RishiAiTech home">
+        <!-- <img
+        src="../assets/images/logo.png"
+        alt=""
+        class="h-10 w-10 shrink-0 rounded object-contain"
+        /> -->
+        <span class="whitespace-nowrap text-xl font-bold tracking-tight logo-animate sm:text-2xl">
+          RishiAiTech
+        </span>
+      </a>
+
+      <ul class="hidden items-center gap-2 text-sm font-semibold text-zinc-700 lg:flex">
+        <li><a data-nav-link href="index.html" class="nav-link">Home</a></li>
+        <li><a data-nav-link href="about.html" class="nav-link">About</a></li>
+        <li><a data-nav-link href="services.html" class="nav-link">Services</a></li>
+        <li><a data-nav-link href="projects.html" class="nav-link">Projects</a></li>
+        <li><a data-nav-link href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <a
+        href="contact.html"
+        class="hidden rounded bg-zinc-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 md:inline-flex"
+      >
+        Book a Call
+      </a>
+
+      <button
+        id="menuBtn"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+        class="inline-flex rounded border border-zinc-200 px-3 py-2 text-sm font-bold text-zinc-900 transition hover:border-teal-500 hover:text-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 lg:hidden"
+      >
+        Menu
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobileMenu" class="hidden border-t border-zinc-200 bg-white px-4 py-4 shadow-lg lg:hidden">
+    <ul class="mx-auto max-w-7xl space-y-1 text-sm font-semibold text-zinc-700">
+      <li><a data-nav-link href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a data-nav-link href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a data-nav-link href="services.html" class="mobile-nav-link">Services</a></li>
+      <li><a data-nav-link href="projects.html" class="mobile-nav-link">Projects</a></li>
+      <li><a data-nav-link href="contact.html" class="mobile-nav-link">Contact</a></li>
+      <li>
+        <a href="contact.html" class="mt-3 inline-flex w-full justify-center rounded bg-zinc-950 px-5 py-3 font-semibold text-white transition hover:bg-teal-700">
+          Book a Call
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
